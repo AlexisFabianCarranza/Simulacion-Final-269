@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="707.0" prefWidth="1371.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sim.pkgfinal.pkg269.FXMLPolitica1Controller">
+   <children>
+      <Label layoutX="477.0" layoutY="14.0" text="SIMULACIÓN DE LA POLITICA 1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="54.0" text="Cantidad de simulaciónes:" />
+      <TextField layoutX="188.0" layoutY="50.0" />
+      <TableView layoutY="92.0" prefHeight="475.0" prefWidth="1338.0">
+        <columns>
+          <TableColumn prefWidth="34.0" text="Reloj" />
+          <TableColumn prefWidth="341.0" text="Lavadoras">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="1">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TF" />
+                        <TableColumn prefWidth="28.0" text="HF" />
+                        <TableColumn prefWidth="20.0" text="E" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="2">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TF" />
+                        <TableColumn prefWidth="28.0" text="HF" />
+                        <TableColumn prefWidth="20.0" text="E" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="3">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TF" />
+                        <TableColumn prefWidth="28.0" text="HF" />
+                        <TableColumn prefWidth="20.0" text="E" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="4">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TF" />
+                        <TableColumn prefWidth="28.0" text="HF" />
+                        <TableColumn prefWidth="20.0" text="E" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="5">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TF" />
+                        <TableColumn prefWidth="28.0" text="HF" />
+                        <TableColumn prefWidth="20.0" text="E" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="6">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TF" />
+                        <TableColumn prefWidth="28.0" text="HF" />
+                        <TableColumn prefWidth="20.0" text="E" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="7">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TF" />
+                        <TableColumn prefWidth="28.0" text="HF" />
+                        <TableColumn prefWidth="20.0" text="E" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="8">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TF" />
+                        <TableColumn prefWidth="28.0" text="HF" />
+                        <TableColumn prefWidth="20.0" text="E" />
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Mecanicos">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="1">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TR" />
+                        <TableColumn prefWidth="25.0" text="HR" />
+                        <TableColumn prefWidth="24.0" text="E" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="2">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TR" />
+                        <TableColumn prefWidth="25.0" text="HR" />
+                        <TableColumn prefWidth="24.0" text="E" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="3">
+                     <columns>
+                        <TableColumn prefWidth="32.0" text="RND" />
+                        <TableColumn prefWidth="25.0" text="TR" />
+                        <TableColumn prefWidth="25.0" text="HR" />
+                        <TableColumn prefWidth="24.0" text="E" />
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableColumn>
+            <TableColumn prefWidth="143.0" text="Tiempo funcionamiento" />
+        </columns>
+      </TableView>
+      <Button layoutX="391.0" layoutY="50.0" mnemonicParsing="false" text="Simular" />
+      <Label fx:id="lblPorcFunc" layoutX="29.0" layoutY="598.0" text="Porcentaje de funcionamiento:" />
+      <Button layoutX="549.0" layoutY="615.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="108.0" text="Finalizar" />
+   </children>
+</AnchorPane>
