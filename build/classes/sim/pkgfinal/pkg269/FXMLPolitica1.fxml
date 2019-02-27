@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="544.0" prefWidth="1371.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sim.pkgfinal.pkg269.FXMLPolitica1Controller">
+<AnchorPane id="AnchorPane" prefHeight="707.0" prefWidth="1371.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sim.pkgfinal.pkg269.FXMLPolitica1Controller">
    <children>
       <Label layoutX="477.0" layoutY="14.0" text="SIMULACIÓN DE LA POLITICA 1">
          <font>
@@ -17,7 +17,7 @@
       </Label>
       <Label layoutX="29.0" layoutY="54.0" text="Cantidad de simulaciónes:" />
       <TextField layoutX="188.0" layoutY="50.0" />
-      <TableView layoutY="92.0" prefHeight="200.0" prefWidth="1338.0">
+      <TableView layoutY="92.0" prefHeight="475.0" prefWidth="1338.0">
         <columns>
           <TableColumn prefWidth="34.0" text="Reloj" />
           <TableColumn prefWidth="341.0" text="Lavadoras">
@@ -120,5 +120,7 @@
         </columns>
       </TableView>
       <Button layoutX="391.0" layoutY="50.0" mnemonicParsing="false" text="Simular" />
+      <Label fx:id="lblPorcFunc" layoutX="29.0" layoutY="598.0" text="Porcentaje de funcionamiento:" />
+      <Button layoutX="549.0" layoutY="615.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="108.0" text="Finalizar" />
    </children>
 </AnchorPane>
