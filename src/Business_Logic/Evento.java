@@ -9,7 +9,8 @@ package Business_Logic;
  *
  * @author acarranza
  */
-public class ExternalService{
-    private Double rnd;
+public interface Evento {
+    
+    public Double getTiempoProximoEvento();
     
 }

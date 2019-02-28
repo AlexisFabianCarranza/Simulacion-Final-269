@@ -11,9 +11,9 @@ import java.util.Random;
  *
  * @author acarranza
  */
-public class Mechanic {
+public class Mechanic implements Evento{
     private String estado; // L ('Libre') R ('Reparando')
-    private Integer rnd;
+    private Double rnd;
     private Double tiempoReparacion;
     private Double horaFinReparacion;
     private Random generadorAleatoreos;
@@ -34,7 +34,7 @@ public class Mechanic {
         return estado;
     }
 
-    public Integer getRnd() {
+    public Double getRnd() {
         return rnd;
     }
 
@@ -46,7 +46,7 @@ public class Mechanic {
         return horaFinReparacion;
     }
 
-    public void setRnd(Integer rnd) {
+    public void setRnd(Double rnd) {
         this.rnd = rnd;
     }
 
@@ -57,6 +57,12 @@ public class Mechanic {
     public void setHoraFinReparacion(Double horaFinReparacion) {
         this.horaFinReparacion = horaFinReparacion;
     }
+
+    @Override
+    public Double getTiempoProximoEvento() {
+        return this.horaFinReparacion;
+    }
+    
     
     
 }
